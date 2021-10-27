@@ -5,8 +5,42 @@
 }
 
 .content-top{
-    background-color: #777777;
+    /* background-color: #777777; */
+    background-color: black;
     display: block;
+}
+.connection{
+    width: 100%;
+    height: 70px;
+}
+.connection-logo{
+    margin-left: 810px;
+}
+.connection-logo i{
+    margin-left: -780px;
+    margin-top: 10px;
+}
+.connection-logo h4{
+    margin-top: 30px;
+    margin-left: 10px;
+    font-family: 'Irish Grover', cursive;
+}
+.connection-timework i,.connection-address i,.connection-call i{
+    margin-top: 30px;
+    margin-left: 45px
+}
+.connection-timework h5,.connection-address h5,.connection-call h5{
+    margin-top: 11px;
+    margin-left: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+.connection-timework h6,.connection-address h6,.connection-call h6{
+    margin-top: -7px;
+    margin-left: 12px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
 }
 .content-slide{
     margin-top: 15px;
@@ -53,4 +87,202 @@
     background-color: #42b4b9;
     color: white;
     font-size: 18px;
+}
+span.line{
+    width: 60px;
+    height: 2px;
+    border-top: 2px solid #42b4b9;
+    border-bottom: 2px solid #42b4b9;
+    padding: 1px 0;
+    display: flex;
+}
+span.dot{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 0 7px;
+    border: 2px solid #42b4b9;
+    display: flex;
+}
+.main-product{
+    margin-top: 80px;
+}
+.main-product-text{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.main-auntion-product{
+    width: 85%;
+    height:240px;
+    margin-left: 7.5%;
+}
+.auntion-product img{
+    margin-top: 50px;
+    width: 100%;
+    height: 240px;
+}
+.auntion-product h4{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.auntion-product h6{
+    text-align: center;
+    color: gray;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.body-auntion-product{
+    margin-top: 80px;
+    width: 90%;
+    margin-left: 6%;
+}
+.countdown h5{
+    margin-top: 7px;
+    margin-left: 10px;
+    color: red;
+}
+.countdown i{
+    margin-top: 11px;
+    margin-left: 75px;
+}
+.body-product-text{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 200px;
+}
+.card-body p{
+    color: gray;
+}
+.card-body h5,.card-body h6{
+    font-weight: 700;
+}
+.card-body p,.card-body h5,.card-body a,.card-body h6{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.body-antique-item{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 70px;
+}
+.body-antique-item-img{
+    width: 55%;
+}
+.body-antique-item-text{
+    width: 40%;
+    margin-top: 50px;
+}
+.body-antique-item-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.body-antique-item-text h5{
+    margin-top: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+}
+.body-antique-item-text h6{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: gray;
+}
+.body-antique-item-text button{
+    border: 0 solid;
+    width: 140px;
+    height: 50px;
+    background-color: #42b4b9;
+    color: white;
+    font-size: 18px;
+    margin-top: 15px;
+}
+.body-antique-item-text i{
+    margin-top: 12px;
+    margin-left: 10px;
+}
+.product-trending-text{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 90px;
+}
+.product-trending-auction{
+    width: 80%;
+    margin-left: 10%;
+}
+.product-trending-auction img{
+    width: 100%;
+}
+.product-trending-auction-text h4,.product-trending-auction-text h5{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.product-trending-auction-text h6{
+    width: 70%;
+    margin-left: 15%;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: gray;
+    margin-top: 15px;
+}
+.icon-comment{
+    margin-left: 100px;
+    margin-top: 15px;
+    color: #fcb71b;
+}
+.product-trending-auction-event{
+    margin-top: 20px;
+}
+.product-trending-auction-event .event-add{
+    border: 0 solid;
+    width: 120px;
+    height: 45px;
+    background-color: #42b4b9;
+    color: white;
+    font-size: 16px;
+    margin-left: 23px;
+}
+.product-trending-auction-event .event-heart,.product-trending-auction-event .event-signal{
+    border: 0 solid;
+    width: 45px;
+    height: 45px;
+    background-color:rgb(206, 205, 205);
+    color: white;
+    font-size: 16px;
+    margin-left: 23px;
+}
+.comment-auction-user{
+    background-image: url('../IMG/comment.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-top: 120px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 700px;
+}
+.comment-auction-user::before{
+    width: 100%;
+    height: 700px;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .6);
+    z-index: -1;
+}
+.comment-auction-user-text{
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 55px;
+    font-weight: 700;
+    color: white;
+    padding-top: 100px;
+}
+.comment-auction-content-main{
+    background-color: white;
+    width: 400px;
+    height: 200px;
 }
